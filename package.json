@@ -2,7 +2,8 @@
   "private": true,
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist",
-    "build-all": "lerna run build-all"
+    "build-all": "lerna run build-all",
+    "publish": "lerna publish --force-publish --registry='https://npm.showmax.cc/'"
   },
   "name": "browser-sync",
   "devDependencies": {
